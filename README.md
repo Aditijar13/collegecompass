@@ -1,4 +1,4 @@
-# 🎓 CollegeCompass v2 — Nexora Design System
+#  CollegeCompass
 
 A production-grade college discovery platform built with **Next.js 15**, **PostgreSQL**, **Prisma**, and the **Nexora dark design system** (orange accent, glass surfaces, Manrope typography, WebGL particle hero).
 
@@ -13,8 +13,6 @@ A production-grade college discovery platform built with **Next.js 15**, **Postg
 | ⚖️ Compare | Side-by-side comparison of up to 3 colleges |
 | 🔐 Auth | Email/password + Google OAuth (NextAuth v5) |
 | 🔖 Save Colleges | Bookmark + dashboard management |
-| 🌑 Dark/Light Mode | Nexora dark default with toggle |
-| ✨ WebGL Hero | Dot-matrix particle field with pointer parallax |
 
 ## 🎨 Design System (Nexora)
 
