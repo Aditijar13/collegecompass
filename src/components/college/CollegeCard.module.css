@@ -1,0 +1,250 @@
+/* CollegeCard.module.css */
+
+.cardLink {
+  text-decoration: none;
+  display: block;
+}
+
+.cardInner {
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.imageWrap {
+  position: relative;
+  height: 168px;
+  background: rgba(255, 255, 255, 0.03);
+  overflow: hidden;
+}
+
+.collegeImage {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 500ms ease;
+}
+
+.cardInner:hover .collegeImage {
+  transform: scale(1.04);
+}
+
+.imagePlaceholder {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.imagePlaceholderLetter {
+  font-family: Manrope, sans-serif;
+  font-size: 48px;
+  font-weight: 800;
+}
+
+.imageOverlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.5) 0%, transparent 60%);
+}
+
+.badges {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  display: flex;
+  gap: 6px;
+}
+
+.featuredBadge {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  padding: 3px 8px;
+  border-radius: 9999px;
+  background: rgba(249, 115, 22, 0.9);
+  font-size: 10px;
+  font-weight: 700;
+  color: #fff;
+}
+
+.nirfBadge {
+  padding: 3px 8px;
+  border-radius: 9999px;
+  background: rgba(0, 0, 0, 0.6);
+  font-size: 10px;
+  font-weight: 600;
+  color: #fff;
+  backdrop-filter: blur(8px);
+}
+
+.saveBtn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background: rgba(0, 0, 0, 0.5);
+  border: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  backdrop-filter: blur(8px);
+  color: #fff;
+  transition: background 200ms;
+}
+
+.saveBtn:hover {
+  background: rgba(0, 0, 0, 0.75);
+}
+
+.categoryPill {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+}
+
+.content {
+  padding: 16px;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.nameWrap {
+  /* container for name + location */
+}
+
+.collegeName {
+  font-family: Manrope, sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  color: #fff;
+  line-height: 1.3;
+  margin-bottom: 4px;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.location {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  color: #6b7280;
+}
+
+.locationText {
+  font-size: 12px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.accreditation {
+  font-size: 10px;
+  padding: 2px 8px;
+  border-radius: 9999px;
+  background: rgba(255, 255, 255, 0.05);
+  border: 0.8px solid rgba(255, 255, 255, 0.1);
+  color: #9ca3af;
+  display: inline-block;
+  width: fit-content;
+}
+
+.stats {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 8px;
+  margin-top: auto;
+  padding-top: 12px;
+  border-top: 0.8px solid rgba(255, 255, 255, 0.06);
+}
+
+.statItem {
+  /* left-aligned stat */
+}
+
+.statItemRight {
+  text-align: right;
+}
+
+.statLabel {
+  font-size: 10px;
+  color: #6b7280;
+  margin-bottom: 2px;
+}
+
+.statValue {
+  font-size: 13px;
+  font-weight: 600;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  gap: 2px;
+}
+
+.statValueRight {
+  font-size: 13px;
+  font-weight: 600;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 3px;
+}
+
+.placement {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 6px 10px;
+  border-radius: 8px;
+  background: rgba(16, 185, 129, 0.08);
+  border: 0.8px solid rgba(16, 185, 129, 0.15);
+}
+
+.placementRate {
+  font-size: 11px;
+  color: #10b981;
+  font-weight: 600;
+}
+
+.placementPkg {
+  font-size: 11px;
+  color: #6b7280;
+  margin-left: auto;
+}
+
+.compareBtn {
+  width: 100%;
+  padding: 8px;
+  border-radius: 8px;
+  font-size: 12px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 200ms ease;
+}
+
+.compareBtnDefault {
+  border: 0.8px solid rgba(255, 255, 255, 0.1);
+  background: transparent;
+  color: #6b7280;
+}
+
+.compareBtnDefault:hover {
+  border-color: rgba(249, 115, 22, 0.4);
+  color: #f97316;
+}
+
+.compareBtnActive {
+  border: 0.8px solid #f97316;
+  background: rgba(249, 115, 22, 0.12);
+  color: #f97316;
+}
