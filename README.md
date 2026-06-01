@@ -1,6 +1,6 @@
 #  CollegeCompass – AI-Powered College Discovery & Comparison Platform
 
- **Live Demo:** https://collegecompass-f26j.vercel.app
+ 🔗 **Live Demo:** https://collegecompass-f26j.vercel.app
 
 CollegeCompass is a **full-stack college discovery and comparison platform** designed to help students make informed higher-education decisions. The platform enables users to explore colleges, compare institutions, save favorites, manage profiles, and share reviews through a modern and intuitive interface.
 
