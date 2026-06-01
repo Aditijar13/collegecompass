@@ -1,6 +1,6 @@
-# 🎓 CollegeCompass – AI-Powered College Discovery & Comparison Platform
+#  CollegeCompass – AI-Powered College Discovery & Comparison Platform
 
-🔗 **Live Demo:** https://collegecompass-f26j.vercel.app
+ **Live Demo:** https://collegecompass-f26j.vercel.app
 
 CollegeCompass is a **full-stack college discovery and comparison platform** designed to help students make informed higher-education decisions. The platform enables users to explore colleges, compare institutions, save favorites, manage profiles, and share reviews through a modern and intuitive interface.
 
@@ -8,7 +8,7 @@ Built using **Next.js, TypeScript, Prisma, PostgreSQL, NextAuth, and Google OAut
 
 ---
 
-## 📖 Project Overview
+##  Project Overview
 
 Choosing the right college can be overwhelming due to scattered information across multiple websites. CollegeCompass simplifies this process by providing a centralized platform where students can:
 
@@ -22,23 +22,23 @@ The platform is designed to improve decision-making through organized and access
 
 ---
 
-## ✨ Features
+##  Features
 
-### 🔐 Authentication & Authorization
+###  Authentication & Authorization
 
 * User Registration & Login
 * Google OAuth Authentication
 * Secure JWT-based Sessions
 * Protected User Dashboard
 
-### 🎓 College Discovery
+###  College Discovery
 
 * Browse colleges
 * Search colleges by name
 * View detailed college information
 * Sort colleges by ratings and other criteria
 
-### ⚖️ College Comparison
+###  College Comparison
 
 * Compare multiple colleges side-by-side
 * Analyze important metrics such as:
@@ -49,33 +49,33 @@ The platform is designed to improve decision-making through organized and access
   * Location
   * Facilities
 
-### ❤️ Saved Colleges
+###  Saved Colleges
 
 * Save favorite colleges
 * Access saved colleges from dashboard
 * Personalized college shortlist
 
-### ⭐ Reviews & Ratings
+###  Reviews & Ratings
 
 * Submit college reviews
 * Rate institutions
 * View community feedback
 
-### 👤 User Dashboard
+###  User Dashboard
 
 * Manage profile information
 * Update preferences
 * View saved colleges
 * Track user activity
 
-### 📱 Responsive Design
+###  Responsive Design
 
 * Mobile-friendly interface
 * Optimized for desktop, tablet, and mobile devices
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 ### Frontend
 
@@ -107,7 +107,7 @@ The platform is designed to improve decision-making through organized and access
 
 ---
 
-## 📂 Folder Structure
+##  Folder Structure
 
 ```bash
 collegecompass/
@@ -147,7 +147,7 @@ collegecompass/
 
 ---
 
-## 🔗 API Routes
+##  API Routes
 
 ### Colleges
 
@@ -189,22 +189,22 @@ collegecompass/
 
 ---
 
-## ⚙️ Installation & Setup
+##  Installation & Setup
 
-### 📥 Clone the Repository
+###  Clone the Repository
 
 ```bash
 git clone https://github.com/Aditijar13/collegecompass.git
 cd collegecompass
 ```
 
-### 📦 Install Dependencies
+###  Install Dependencies
 
 ```bash
 npm install
 ```
 
-### 🔑 Setup Environment Variables
+###  Setup Environment Variables
 
 Create a `.env` file and add:
 
@@ -218,31 +218,31 @@ GOOGLE_CLIENT_ID="your_google_client_id"
 GOOGLE_CLIENT_SECRET="your_google_client_secret"
 ```
 
-### 🗄️ Run Database Migrations
+###  Run Database Migrations
 
 ```bash
 npx prisma migrate dev
 ```
 
-### ⚡ Generate Prisma Client
+###  Generate Prisma Client
 
 ```bash
 npx prisma generate
 ```
 
-### 🌱 Seed Database (Optional)
+###  Seed Database (Optional)
 
 ```bash
 npx prisma db seed
 ```
 
-### ▶️ Run Development Server
+###  Run Development Server
 
 ```bash
 npm run dev
 ```
 
-### 🌐 Open in Browser
+###  Open in Browser
 
 ```bash
 http://localhost:3000
@@ -250,7 +250,7 @@ http://localhost:3000
 
 ---
 
-## 📚 Key Learnings
+##  Key Learnings
 
 * Built a complete full-stack application using Next.js
 * Implemented secure authentication with NextAuth
@@ -263,7 +263,7 @@ http://localhost:3000
 
 ---
 
-## 🚀 Future Improvements
+##  Future Improvements
 
 * AI-powered college recommendations
 * Admission prediction system
@@ -276,7 +276,7 @@ http://localhost:3000
 
 ---
 
-## 📸 Screenshots
+##  Screenshots
 
 Add screenshots of:
 
@@ -289,21 +289,20 @@ Add screenshots of:
 
 ---
 
-## 👩‍💻 Author
+##  Author
 
 **Aditi Jar**
 
 * GitHub: https://github.com/Aditijar13
-* LinkedIn: Add Your LinkedIn Profile
 
 ---
 
-## 📄 License
+##  License
 
 This project is licensed under the **MIT License**.
 
 ---
 
-## ⭐ Show Your Support
+##  Show Your Support
 
 If you found this project useful, consider giving it a **⭐ Star** on GitHub!
